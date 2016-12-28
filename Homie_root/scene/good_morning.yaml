@@ -1,0 +1,27 @@
+- name: Morning Bright
+  enteties:
+    light.dining:
+      state: on
+      transition: 10
+    light.sofa:
+      state: on 
+      transition: 10
+    light.middle:
+      state: on
+      brightness: 100
+      xy_color: [0.1684, 0.0416]
+      rgb_color: [51, 52, 255]
+      color_temp: 500
+      transition: 10
+    light.ceiling:
+      state: on
+      xy_color: [0.1684, 0.0416]
+      rgb_color: [51, 52, 255]
+      color_temp: 500
+      transition: 10
+    light.telly:
+      state: on
+      xy_color: [0.1684, 0.0416]
+      rgb_color: [51, 52, 255]
+      color_temp: 500
+      transition: 10      

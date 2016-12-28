@@ -1,0 +1,20 @@
+###################################
+##  DarkSky Section
+###################################
+
+sensor.dark_sky_summary:
+  friendly_name: 'Today'
+  icon: mdi:beach
+sensor.dark_sky_minutely_summary:
+  friendly_name: 'Current'
+  icon: mdi:beach
+sensor.dark_sky_precip_intensity:
+  friendly_name: 'Rainfall'
+sensor.dark_sky_temperature:
+  friendly_name: 'Outdoor Temp'
+  
+###################################
+##  Sun Section
+###################################
+sun.sun:
+  hidden: true

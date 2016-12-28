@@ -1,0 +1,14 @@
+Downstairs:
+  view: yes
+#  icon: mdi:lightbulb
+  entities:
+    - group.diningroom_lights
+    - group.livingroom_lights
+
+Info:
+  view: yes
+  icon: mdi:settings
+  entities:
+    - sun.sun
+    - group.weather
+

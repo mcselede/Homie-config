@@ -1,0 +1,27 @@
+- name: Movie Time
+  entities:
+    light.dining:
+      state: off
+      transition: 10
+    light.sofa:
+      state: off 
+      transition: 10
+    light.middle:
+      state: on
+      brightness: 20
+      xy_color: [0.1684, 0.0416]
+      rgb_color: [51, 52, 255]
+      color_temp: 500
+      transition: 40
+    light.ceiling:
+      state: on
+      xy_color: [0.1684, 0.0416]
+      rgb_color: [51, 52, 255]
+      color_temp: 500
+      transition: 40
+    light.telly:
+      state: on
+      xy_color: [0.1684, 0.0416]
+      rgb_color: [51, 52, 255]
+      color_temp: 500
+      transition: 40      

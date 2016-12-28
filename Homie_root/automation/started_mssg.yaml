@@ -1,0 +1,8 @@
+# IFTTT message to pushbullet
+- alias: Startup Notification
+  trigger:
+    platform: event
+    event_type: homeassistant_start
+  action:
+    service: ifttt.trigger
+    data: {"event":"TestHA_Trigger", "value1":"Server Homie started!"}

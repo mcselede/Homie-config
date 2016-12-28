@@ -1,0 +1,12 @@
+Livingroom lights:
+  entities:
+    - light.ceiling
+    - light.telly
+    - light.middle
+    - light.sofa
+Diningroom lights:
+  entities:
+    - light.dining
+Staircase lights:
+  entities:
+    - light.stairs
