@@ -10,3 +10,6 @@ Diningroom lights:
 Staircase lights:
   entities:
     - light.stairs
+Bedroom lights:
+  entities:
+    - light.bed_room
