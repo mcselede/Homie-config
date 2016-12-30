@@ -1,15 +1,14 @@
 Downstairs:
   view: yes
-#  icon: mdi:lightbulb
   entities:
     - group.diningroom_lights
     - group.livingroom_lights
  
- Upstairs:
-   view: yes
-   entities:
-     - light.bedroom
-     - light.stairs
+Upstairs:
+  view: yes
+  entities:
+    - light.bedroom
+    - light.stairs
 
 Info:
   view: yes
